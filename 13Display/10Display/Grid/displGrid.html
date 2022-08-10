@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            border: 1px solid grey;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .wrapper {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            grid-auto-rows: minmax(100px, auto);
+        }
+
+        .one {
+            grid-column: 1/3;
+            grid-row: 1;
+            background-color: rgba(0, 128, 128, 0.306);
+        }
+
+        .two {
+            grid-column: 2/4;
+            grid-row: 1/3;
+            background-color: rgba(128, 0, 128, 0.354);
+        }
+
+        .three {
+            grid-column: 1;
+            grid-row: 2/5;
+        }
+        .four{ grid-column:2/4 ;grid-row:3 ; }
+        .five{ grid-column: 2;grid-row:4 ; }
+       .six{ grid-column: 3;grid-row:4 ; } 
+    </style>
+</head>
+
+<body>
+    https://codepen.io/marcobiedermann/pen/vYYyVzK
+    <div class="wrapper">
+        <div class="one">
+            <img src="../images/img (1).jpeg" alt="">
+        </div>
+        <div class="two">
+            
+            <img src="../images/img (2).jpeg" alt="">
+        </div>
+        <div class="three">
+            <img src="../images/img (3).jpeg" alt="">
+        </div>
+        <div class="four">
+            <img src="../images/img (4).jpeg" alt="">
+        </div>
+        <div class="five">
+            <img src="../images/img (5).jpeg" alt="">
+        </div>
+        <div class="six">
+            <img src="../images/img (6).jpeg" alt="">
+        </div>
+    </div>
+</body>
+
+</html>

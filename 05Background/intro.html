@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bg {
+            background-color: grey;
+            height: 500px;
+        }
+        .background-attachment {
+            background-color: grey;
+            background-image: url(../images/1627377451_nature.jpg);
+            background-attachment: fixed;
+            height: 500px;
+        }
+        .background-clip {
+            background-color: grey;
+            background-image: url(../images/1627377451_nature.jpg);
+            background-attachment: fixed;
+            background-clip: border-box;
+            background-clip: padding-box;
+            background-clip: content-box;
+            border: 20px dashed orangered;
+            height: 500px;
+            padding: 20px;
+        }
+        .background-origin {
+            background-color: grey;
+            background-image: url(../images/1627377451_nature.jpg);
+            /* background-attachment: fixed;
+            background-clip: border-box;
+            background-clip: padding-box;
+            background-clip: content-box; */
+            background-origin: border-box;
+            border: 20px dashed orangered;
+            height: 500px;
+            padding: 20px;
+        }
+        .background-position {
+            background-color: grey;
+            background-image: url(../images/1627377451_nature.jpg);
+            background-origin: border-box;
+            background-position: 50%;
+            /* background-position: 50% 20%; */
+            /* background-position: center center; */
+            border: 20px dashed orangered;
+            height: 500px;
+            padding: 20px;
+        }
+        .background-repeat {
+            background-color: grey;
+            background-image: url(../images/istockphoto-1186330948-612x612.jpg);
+            border: 20px dashed orangered;
+            height: 500px;
+            padding: 20px;
+            background-repeat: no-repeat;
+        }
+        .background-size {
+            background-color: grey;
+            background-image: url(../images/istockphoto-1186330948-612x612.jpg);
+            border: 20px dashed orangered;
+            height: 500px;
+            padding: 20px;
+            background-size: contain;
+        }
+        .background {
+            background: url(../images/istockphoto-1186330948-612x612.jpg)no-repeat center center;
+            border: 20px dashed orangered;
+            height: 500px;
+            padding: 20px;
+            background-size: contain;
+        }
+        .background-flag {
+            /* background:linear-gradient(orangered,white,green); */
+            background:linear-gradient(203deg,orangered,white,green);
+            border: 20px dashed orangered;
+            height: 500px;
+            padding: 20px;
+            background-size: contain;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg">
+        <ul>
+
+            <li> background-attachment</li>
+            <li> background-clip</li>
+            <li> background-color</li>
+            <li> background-image</li>
+            <li> background-origin</li>
+            <li> background-position</li>
+            <li> background-repeat</li>
+            <li> background-size</li>
+        </ul>
+    </div>
+    <div class="background-attachment"></div>
+    <div class="background-clip">kuch text</div>
+    <div class="background-origin">background-origin</div>
+    <div class="background-position">background-position</div>
+    <div class="background-repeat">background-repeat</div>
+    <div class="background-size">background-size</div>
+    <div class="background">background-shorthand</div>
+    <div class="background-flag">background-flag</div>
+
+    <img src="../images/1627377451_nature.jpg" alt="">
+</body>
+
+</html>

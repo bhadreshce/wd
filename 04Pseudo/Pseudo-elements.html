@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter{
+            font-size: 36px;
+        }
+        p::first-line{
+            /* color: rgb(42, 128, 165); */
+            /* color: rgba(42, 128, 165, 0.462); */
+            /* color: blue; */
+            color: #d3008b;
+        }
+        h3::before{
+            content: "~";
+        }
+        h3::after{
+            content: "~";
+        }
+        p::selection{
+            background-color: teal;
+            color: wheat;
+        }
+    </style>
+</head>
+<body>
+    <h3>Test</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptates ipsum maxime beatae, officiis harum necessitatibus maiores sit incidunt commodi, dolores nobis? Nulla ipsa repellendus quas provident et deleniti iure?  Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quos ullam adipisci cum culpa voluptatum architecto itaque, repellat quidem incidunt possimus perspiciatis ea. Obcaecati eos nulla possimus reiciendis aliquid nesciunt.</p>
+    <h3>Test</h3>
+    <h3>Test</h3>
+    <h3>Test</h3>
+    <h3>Test</h3>
+    <h3>Test</h3>
+</body>
+</html>

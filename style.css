@@ -1,0 +1,8 @@
+/* never contain HTML tags or data */
+h4{
+    color: white;
+    background-color: teal;
+}
+h2{
+    color: yellow;
+}

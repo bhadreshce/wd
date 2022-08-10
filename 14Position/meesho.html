@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        div {
+            border: 1px solid;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .ml-a {
+            margin-left: auto;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .logo {
+            width: 150px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .heaeder-top {
+            line-height: 60px;
+        }
+
+        .logo img {
+            vertical-align: middle;
+        }
+
+        .search input {
+            width: 100%;
+            padding: 10px 40px;
+        }
+
+        .search {
+            position: relative;
+            width: 400px;
+            padding: 0 20px;
+        }
+
+        .inp-search {
+            position: absolute;
+            margin-top: 20px;
+            font-size: 24px;
+            margin-left: 5px;
+            color: grey;
+        }
+
+        .top-menu ul li {
+            display: inline-block;
+            position: relative;
+        }
+
+        .top-menu ul li a {
+            padding: 10px 20px;
+        }
+
+        .top-menu ul li+li::before {
+            content: ' ';
+            position: absolute;
+            background-color: rgb(45, 44, 44);
+            width: 2px;
+            height: 20px;
+            top: 35%;
+        }
+        .child{
+            display: none;
+            position: absolute;
+        }
+        .hoverme:hover .child{
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="heaeder-top">
+            <div class="row ">
+                <div class="logo"><img src="images/partners_meesho_com.png" alt=""></div>
+                <div class="search"><i class="fa-solid fa-magnifying-glass inp-search"></i><input type="text" name=""
+                        id=""></div>
+                <div class="top-menu ml-a">
+                    <ul>
+                        <li><a href="#">Download App</a></li>
+                        <li><a href="#">Become a Supplier</a></li>
+                        <li>
+                            <a href="#">Profile</a>
+                            <a href="#">Cart</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <div class="main-menu">
+                <nav>
+                    <ul class="navbar">
+                        <li class="hoverme">
+                            <a href="#">Test</a>
+                            <div class="child">
+                                kuchbhi
+                            </div>
+                        </li>
+                        <li><a href="#">Test</a></li>
+                        <li><a href="#">Test</a></li>
+                        <li><a href="#">Test</a></li>
+                        <li><a href="#">Test</a></li>
+                        <li><a href="#">Test</a></li>
+                        <li><a href="#">Test</a></li>
+                        <li><a href="#">Test</a></li>
+                        <li><a href="#">Test</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
